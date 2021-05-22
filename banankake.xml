@@ -7,12 +7,12 @@
         <ingrediens>
             <antall>1</antall>
             <enhet>ts</enhet>
-            <type>vann</vann>
+            <type>vann</type>
         </ingrediens>
         <ingrediens>
             <antall>2</antall>
             <enhet>liter</enhet>
-            <type>mel</vann>
+            <type>mel</type>
         </ingrediens>
     </ingredienser>
     <fremgangsmaate>
