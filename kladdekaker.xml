@@ -1,0 +1,23 @@
+< ?xml version="1.0" encoding="UTF-8" ?>
+
+<oppskrift>
+    <navn>Kladdekaker</navn>
+    <porsjoner>4</porsjoner>
+    <ingredienser>
+        <ingrediens>
+            <antall>1</antall>
+            <enhet>ts</enhet>
+            <type>vann</vann>
+        </ingrediens>
+        <ingrediens>
+            <antall>2</antall>
+            <enhet>liter</enhet>
+            <type>mel</vann>
+        </ingrediens>
+    </ingredienser>
+    <fremgangsmaate>
+        <steg>bland sammen</steg>
+        <steg>stek ved 250 grader</steg>
+        <steg>server</steg>
+    </fremgangsmaate>
+</oppskrift>
