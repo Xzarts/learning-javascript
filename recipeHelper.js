@@ -79,18 +79,10 @@ let recipeHelper = {
         response.status = 'success'
         return response
     },
-    getRecipeById: function (recipeRequest) {
+    getAllRecipes: function() {
         return new Promise((resolve, reject) => {
-            if(!recipeRequest) {
-                reject({
-                    error: "Parameter 'recipeRequest' is mandatory"
-                })
-                return
-            }
-    
             let xhr = new XMLHttpRequest()
-            xhr.open('GET', 'recipes.json', true)
-    
+            xhr.open('get', 'recipes.json', true)
             xhr.onload = function() {
                 if(xhr.readyState === xhr.DONE) {
                     // 0 indicates a successful HTTP request in some browsers, but it's usually 200
@@ -102,8 +94,7 @@ let recipeHelper = {
                             return
                         }
     
-                        let recipe = recipes.find(r => r.id == recipeRequest.id)
-                        resolve(recipe)
+                        resolve(recipes)
                         return
                     } else {
                         reject({
