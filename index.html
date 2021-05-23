@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Klokketest</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Tittel: <span id="title"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span id="servings">0</span> porsjoner
+                    <ul id="ingredients" class="hide"></ul>
+                    <ul id="steps" class="hide"></ul>
+                </div>
+                <div class="col">
+                    <label for="quantity">Antall:</label>
+                    <input type="text" class="form-control" id="quantity" />
+
+                    <label for="recipeId">Oppskrift:</label>
+                    <select id="recipeId" class="form-control"></select>
+
+                    <button type="button" class="btn" id="getRecipe">Endre</button>
+
+                    <div id="error" class="hide"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="htmlHelper.js"></script>
+        <script src="recipeHelper.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
