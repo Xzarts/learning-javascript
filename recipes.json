@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "name": "Kladdekaker",
+    "servings": 4,
+    "ingredients": [{
+        "quantity": 1,
+        "unit": "ts",
+        "type": "vann"
+    }, {
+        "quantity": 2,
+        "unit": "liter",
+        "type": "mel"
+    }],
+    "steps": ["bland sammen", "stek ved 250 grader", "serve"]
+}]
